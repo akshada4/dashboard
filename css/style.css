@@ -64,7 +64,7 @@ body{
 	position: relative;
 	display: inline-block;
 	height: 4rem;
-	width: 110rem;
+	width: 100rem;
 }
 
 .verify{
@@ -79,7 +79,7 @@ body{
 }
 
 .display-welcome {
-	margin-left: 90rem;
+	right: 5rem;
 	font-size: 1.5rem;
 	color: var(--text-color);
 }
@@ -91,14 +91,13 @@ body{
 	width: 32rem;
 	height: 8rem;
 	border-radius: 2rem;
-	margin-left: 5rem;
 }
 
-.top-right-display span {
+.logout {
 	font-size: 1.5rem;
 	position: absolute;
-	top:2.7rem;
-	right: 18rem;
+	top: 3rem;
+	right: 17rem;
 }
 
 .top-right-display svg {
@@ -109,12 +108,12 @@ body{
 
 .bell{
 	right: 8rem;
-	top: 2.7rem;
+	top: 3rem;
 }
 
 .more{
 	right: 3rem;
-	top: 2.7rem;
+	top: 3rem;
 }
 
 .top-right-display img {

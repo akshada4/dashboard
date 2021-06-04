@@ -1,0 +1,126 @@
+:root {
+	--primary-color: #ff2b48;
+	--nav-font-color: #f7f7f7;
+	--text-color: #363636;
+	--dashboard-bkg: #f5f5f5;
+}
+
+html{
+	font-size: 62.5%;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+.nav {
+	position: absolute;
+	background: var(--primary-color);
+	height:100%;
+	width: 20%;
+}
+
+.nav-btns {
+	margin: 20rem 8rem;
+	width: 25rem;
+}
+
+.nav-btns div {
+	font-size: 2.5rem;
+	color: var(--nav-font-color);
+	margin-bottom: 3rem;
+	cursor: pointer;
+}
+
+.nav-btns div span {
+	vertical-align: top;
+}
+
+.nav-btns svg {
+	fill: white;
+	height: 3rem;
+	width: 3rem;
+}
+
+.dashboard {
+	display: inline-block;
+	margin-left: 20%;
+	border: 1px solid;
+	height: 100%;
+	width: 80%;
+	background:var(--dashboard-bkg);
+}
+
+.user-header-info {
+	padding-left: 10rem;
+	padding-top: 4rem;
+	padding-bottom: 4rem;
+	padding-right: 3rem;
+}
+
+.message-on-page {
+	position: relative;
+	display: inline-block;
+	height: 4rem;
+	width: 110rem;
+}
+
+.verify{
+	font-weight: bold;
+	font-size: 3rem;
+	color: var(--text-color);
+}
+
+.verify, .display-welcome {
+	position: absolute;
+	bottom: 0;
+}
+
+.display-welcome {
+	margin-left: 90rem;
+	font-size: 1.5rem;
+	color: var(--text-color);
+}
+
+.top-right-display {
+	background: white;
+	position: relative;
+	display: inline-block;
+	width: 35rem;
+	height: 8rem;
+	border-radius: 2rem;
+	margin-left: 5rem;
+}
+
+.top-right-display span {
+	font-size: 1.5rem;
+	position: absolute;
+	top:2.7rem;
+	right: 18rem;
+}
+
+.top-right-display svg {
+	height: 2rem;
+    width: 2rem;
+    position: absolute;
+}
+
+.bell{
+	right: 8rem;
+	top: 2.7rem;
+}
+
+.more{
+	right: 3rem;
+	top: 2.7rem;
+}
+
+.top-right-display img {
+	position: absolute;
+	width: 6rem;
+	padding: 1rem;
+	left: 2rem;
+	border-radius: 2rem;
+}

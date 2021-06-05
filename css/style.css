@@ -197,7 +197,7 @@ body{
 .user-info span:nth-child(7) {
 	position: absolute;
     bottom: 0;
-    right: 4rem;
+    right: 3rem;
 }
 
 .user-input {
